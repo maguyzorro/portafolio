@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    font-size: 1.1rem;
+    color: #454545;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 15px;
+}
+.footer__span{
+    margin-left: 5px;
+    text-decoration: underline;
+}
+.footer__span:hover{
+    cursor: pointer;
+}

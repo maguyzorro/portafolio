@@ -1,0 +1,46 @@
+.formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+.form__form{
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background: white;
+}
+.form__label{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.form__input{
+    width: 90%;
+    height: 30px;
+    margin: 15px auto;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.form__form textarea{
+    height: 70px;
+}
+.form__submit{
+    background: #0d78cf;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    height: 30px;
+    margin: 10px auto;
+    width: 90%;
+}
+.fa-envelope-circle-check{
+    color: #0d78cf;
+    font-size: 40px;
+    margin: 15px auto;
+}
+

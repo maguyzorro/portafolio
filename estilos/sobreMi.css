@@ -1,0 +1,33 @@
+.sobreMi{
+    align-items:flex-start;
+    padding-top: 4rem;
+    justify-content: space-between;
+}
+.sobreMi__titulo{
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+}
+.sobreMi__parrafo{
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #454545;
+    padding-left: 0.5rem;
+}
+.sobreMi__item{
+    max-width: 70%;
+}
+.sobreMi__datos{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+  
+}
+.sobreMi__datos__item{
+    font-size: 1.5rem;
+    color: #454545; 
+    margin-top: 1rem;
+}
+    
+    

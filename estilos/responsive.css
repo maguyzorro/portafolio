@@ -1,0 +1,142 @@
+@media  (max-width: 900px) {
+    .header__container{
+        width: 20%;
+    }
+    .header__imagen{
+        width: 15px;
+    }
+    .header__h2{
+        font-size: 1.2rem;
+    }
+    .nav__link{
+        font-size: 1rem;
+    }
+    .presentacion__titulo{
+        font-size: 2rem;
+    }
+    .principal__img{
+        max-width: 200px;
+    }
+    .presentacion__parrafo, .sobreMi__parrafo{
+        font-size: 1.3rem;
+    }
+    .presentacion__icon, .presentacion__link{
+        font-size: 0.9rem;
+    }
+    .sobreMi__titulo, .skills__titulo, .hobbies__titulo, .sobreMi__datos__item, .formacion__titulo{
+        font-size: 1.5rem;
+    }
+    .iconFont{
+        font-size: 3rem;
+    }
+    .skills__paragraph, .hobbies__paragraf, .formacion__paragraph{
+        font-size: 0.8rem;
+        margin-top: -10px;
+
+    } 
+    .formacion__logo{
+        height: 100px;
+    }
+    .formacion__paragraph{
+        transform: translateY(0px);
+    }
+    .formacion__item:hover .formacion__paragraph{
+        transform: translateY(0px);
+    }
+    .proyecto__img, .proyecto__paragraph{
+        width: 100%;
+    }
+
+}
+@media  (max-width: 700px){
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+    .header__container{
+        text-align: center;
+        width: 90%;
+        flex-direction: column;
+        padding-top: 15px;        
+    }
+    .header__imagen{
+        display: none;
+    }
+    .header__h2{
+        width: 90%;
+        font-size: 2rem;
+    }
+    .header__lista{
+        flex-direction: column;
+    }
+    .header__items{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .nav__link{
+        font-size: 1.5rem;
+    }
+    .principal{
+        flex-direction: column-reverse;
+    }
+    .presentacion{
+        width: 95%;
+    }
+    .presentacion__lista{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .presentacion__item{
+        flex-direction: column;
+    }
+    .presentacion__link{
+        margin-right: 0px;
+    }
+    .sobreMi{
+        flex-direction: column-reverse;
+        padding-top: 0px;
+    }
+    .sobreMi__datos{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .sobreMi__item{
+        margin-top: 20px;
+        max-width: 100%;
+        padding-right: 0.5rem;
+    }
+    .skills__titulo, .hobbies__titulo, .formacion__titulo, .sobreMi__titulo{
+        display: block;
+        font-size: 2rem;
+        padding-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .skills__list, .hobbies__list{
+        width: 100%;
+        padding-left: 0px;
+        justify-content: space-around;
+    }
+    .form__form{
+        width: 90%;
+    }
+    .formacion__list{
+        flex-direction: column;
+        height: auto;
+    }
+    .formacion__item{
+        padding-top: 0px;
+        height: 110px;
+        justify-content: space-around;
+        margin-top: 10px;
+        width: 90%;
+    }
+    .formacion__logo{
+        height: 60px;
+    }
+    .formulario{
+        width: 98%;
+    }
+}

@@ -1,0 +1,65 @@
+body{
+    padding-top: 1rem;
+}
+.principal, .sobreMi, .skills, .hobbies, .footer, .formacion, .proyectos, .formulario{
+    align-items: center;
+    background: #eee;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-left: 4px solid #3498DB;
+    border-right: 4px solid #3498DB;
+    padding-top: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.presentacion{
+    width: 70%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.presentacion__titulo{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.presentacion__parrafo{
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #454545;
+}
+.presentacion__lista{
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+   
+}
+.presentacion__link{
+    color: #454545;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+.presentacion__icon{
+    margin-right: 5px;
+}
+.presentacion__link:hover{
+    text-decoration: underline;
+}
+.principal__img__container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.principal__img{
+    max-width: 250px;
+    border-radius: 50%;
+}
+/*.principal__datos{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    text-align: center;
+    color: #666;
+}*/
